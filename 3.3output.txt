@@ -1,0 +1,76 @@
+3.3 output.txt
+Q: What features, if any, retain their importance at both low and high(er) amounts of input data? 
+Provide a possible explanation as to why this might be
+
+A: the 1st_person_pronouns and avg_tokens are important at both low and high amounts of input data since they are top first and second rank in both input data files. Also adverbs and 2nd_person_pronouns are important at both low and high amounts of input data. The possible explanation could be that most sentences contains first and second person pronouns and adverbs. the average length of tokens is important because it does not really related to the number of sentences(average length of tokens from 20 sentences and 40 sentences are not that much different).
+
+
+=============== Result from the training data with size 500 ===============
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 21 polarity):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.0398    1 1st_person_pronouns
+ 0.023    19 avg_tokens
+ 0.016    14 adverbs
+ 0.0114    2 2nd_person_pronouns
+ 0         7 commas
+ 0         9 dashes
+ 0         8 colon_and_semi
+ 0         4 coor_conjunctions
+ 0         3 3rd_person_pronouns
+ 0         6 future_verbs
+ 0         5 past_verbs
+ 0        17 words_all_upper
+ 0        16 modern_slang
+ 0        20 num_sentences
+ 0        18 avg_sentences
+ 0        11 ellipses
+ 0        10 parentheses
+ 0        15 wh_words
+ 0        12 common_nouns
+ 0        13 proper_nouns
+
+Selected attributes: 1,19,14,2,7,9,8,4,3,6,5,17,16,20,18,11,10,15,12,13 : 20
+
+
+=============== Result from the training data with size 5500 ===============
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 21 polarity):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.026164   19 avg_tokens
+ 0.022846    1 1st_person_pronouns
+ 0.010571    2 2nd_person_pronouns
+ 0.009625   14 adverbs
+ 0.002695    7 commas
+ 0.002553   12 common_nouns
+ 0.001764    9 dashes
+ 0.001718    3 3rd_person_pronouns
+ 0.001345   17 words_all_upper
+ 0.001215   13 proper_nouns
+ 0.001142   20 num_sentences
+ 0.000887   15 wh_words
+ 0.000671    8 colon_and_semi
+ 0           5 past_verbs
+ 0           4 coor_conjunctions
+ 0          16 modern_slang
+ 0          18 avg_sentences
+ 0           6 future_verbs
+ 0          11 ellipses
+ 0          10 parentheses
+
+Selected attributes: 19,1,2,14,7,12,9,3,17,13,20,15,8,5,4,16,18,6,11,10 : 20
+

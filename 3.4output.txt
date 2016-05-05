@@ -1,0 +1,1031 @@
+======= Algorithm: SVMs, Input Files: 10 partitions from train.arff =======
+Result from partition0
+accuracy: 61.4367
+precision for class 0: 0.62094017094
+precision for class 4: 0.608470678421
+average precision for class 0 and 4: 0.614705424681
+recall for class0: 0.587189331178
+recall for class4: 0.358456253789
+average recall for class 0 and 4: 0.472822792483
+p-value: (-0.23763250883392226, 0.85147327726390865)
+
+Time taken to build model: 1.41 seconds
+Time taken to test model on training data: 0.15 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6081               61.4367 %
+Incorrectly Classified Instances      3817               38.5633 %
+Kappa statistic                          0.2287
+Mean absolute error                      0.3856
+Root mean squared error                  0.621 
+Relative absolute error                 77.1267 %
+Root relative squared error            124.1988 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2906 2043 |    a = 0
+ 1774 3175 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6045               61.0729 %
+Incorrectly Classified Instances      3853               38.9271 %
+Kappa statistic                          0.2215
+Mean absolute error                      0.3893
+Root mean squared error                  0.6239
+Relative absolute error                 77.8541 %
+Root relative squared error            124.7831 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2891 2058 |    a = 0
+ 1795 3154 |    b = 4
+
+
+
+================== Result from partition1 ==================
+accuracy: 61.2851
+precision for class 0: 0.622023159275
+precision for class 4: 0.604961473407
+average precision for class 0 and 4: 0.613492316341
+recall for class0: 0.575267730855
+recall for class4: 0.349565568802
+average recall for class 0 and 4: 0.462416649828
+p-value: (-0.33303491495076099, 0.79533823174380447)
+
+Time taken to build model: 1.64 seconds
+Time taken to test model on training data: 0.18 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6066               61.2851 %
+Incorrectly Classified Instances      3832               38.7149 %
+Kappa statistic                          0.2257
+Mean absolute error                      0.3871
+Root mean squared error                  0.6222
+Relative absolute error                 77.4298 %
+Root relative squared error            124.4426 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2847 2102 |    a = 0
+ 1730 3219 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6045               61.0729 %
+Incorrectly Classified Instances      3853               38.9271 %
+Kappa statistic                          0.2215
+Mean absolute error                      0.3893
+Root mean squared error                  0.6239
+Relative absolute error                 77.8541 %
+Root relative squared error            124.7831 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2841 2108 |    a = 0
+ 1745 3204 |    b = 4
+
+
+
+================== Result from partition2 ==================
+accuracy: 61.5983
+precision for class 0: 0.625822007891
+precision for class 4: 0.607571214393
+average precision for class 0 and 4: 0.616696611142
+recall for class0: 0.576884219034
+recall for class4: 0.344918165286
+average recall for class 0 and 4: 0.46090119216
+p-value: (-0.33710801393728224, 0.79300695723382264)
+
+Time taken to build model: 1.58 seconds
+Time taken to test model on training data: 0.18 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6097               61.5983 %
+Incorrectly Classified Instances      3801               38.4017 %
+Kappa statistic                          0.232 
+Mean absolute error                      0.384 
+Root mean squared error                  0.6197
+Relative absolute error                 76.8034 %
+Root relative squared error            123.9382 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2855 2094 |    a = 0
+ 1707 3242 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6050               61.1235 %
+Incorrectly Classified Instances      3848               38.8765 %
+Kappa statistic                          0.2225
+Mean absolute error                      0.3888
+Root mean squared error                  0.6235
+Relative absolute error                 77.7531 %
+Root relative squared error            124.7021 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2828 2121 |    a = 0
+ 1727 3222 |    b = 4
+
+
+================== Result from partition3 ==================
+accuracy: 61.5377
+precision for class 0: 0.625494505495
+precision for class 4: 0.606768885565
+average precision for class 0 and 4: 0.61613169553
+recall for class0: 0.575065669832
+recall for class4: 0.344311982219
+average recall for class 0 and 4: 0.459688826025
+p-value: (-0.34938704028021017, 0.7860138563123743)
+
+Time taken to build model: 1.24 seconds
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6091               61.5377 %
+Incorrectly Classified Instances      3807               38.4623 %
+Kappa statistic                          0.2308
+Mean absolute error                      0.3846
+Root mean squared error                  0.6202
+Relative absolute error                 76.9246 %
+Root relative squared error            124.036  %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2846 2103 |    a = 0
+ 1704 3245 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6073               61.3558 %
+Incorrectly Classified Instances      3825               38.6442 %
+Kappa statistic                          0.2271
+Mean absolute error                      0.3864
+Root mean squared error                  0.6216
+Relative absolute error                 77.2883 %
+Root relative squared error            124.3289 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2846 2103 |    a = 0
+ 1722 3227 |    b = 4
+
+
+================== Result from partition4 ==================
+accuracy: 61.4771
+precision for class 0: 0.625055041832
+precision for class 4: 0.606049290515
+average precision for class 0 and 4: 0.615552166174
+recall for class0: 0.573651242675
+recall for class4: 0.344109921196
+average recall for class 0 and 4: 0.458880581936
+p-value: (-0.35827464788732394, 0.78098539280491464)
+
+Time taken to build model: 1.45 seconds
+Time taken to test model on training data: 0.16 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6085               61.4771 %
+Incorrectly Classified Instances      3813               38.5229 %
+Kappa statistic                          0.2295
+Mean absolute error                      0.3852
+Root mean squared error                  0.6207
+Relative absolute error                 77.0459 %
+Root relative squared error            124.1337 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2839 2110 |    a = 0
+ 1703 3246 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6073               61.3558 %
+Incorrectly Classified Instances      3825               38.6442 %
+Kappa statistic                          0.2271
+Mean absolute error                      0.3864
+Root mean squared error                  0.6216
+Relative absolute error                 77.2883 %
+Root relative squared error            124.3289 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2828 2121 |    a = 0
+ 1704 3245 |    b = 4
+
+
+================== Result from partition5 ==================
+accuracy: 61.7498
+precision for class 0: 0.626220968092
+precision for class 4: 0.609903609904
+average precision for class 0 and 4: 0.618062288998
+recall for class0: 0.582946049707
+recall for class4: 0.347949080622
+average recall for class 0 and 4: 0.465447565165
+p-value: (-0.29406706792777298, 0.8179236327007694)
+
+Time taken to build model: 1.7 seconds
+Time taken to test model on training data: 0.18 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6112               61.7498 %
+Incorrectly Classified Instances      3786               38.2502 %
+Kappa statistic                          0.235 
+Mean absolute error                      0.3825
+Root mean squared error                  0.6185
+Relative absolute error                 76.5003 %
+Root relative squared error            123.6934 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2885 2064 |    a = 0
+ 1722 3227 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6068               61.3053 %
+Incorrectly Classified Instances      3830               38.6947 %
+Kappa statistic                          0.2261
+Mean absolute error                      0.3869
+Root mean squared error                  0.6221
+Relative absolute error                 77.3894 %
+Root relative squared error            124.4101 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2856 2093 |    a = 0
+ 1737 3212 |    b = 4
+
+
+================== Result from partition6 ==================
+accuracy: 61.6791
+precision for class 0: 0.621889498102
+precision for class 4: 0.612102404965
+average precision for class 0 and 4: 0.616995951534
+recall for class0: 0.595877955142
+recall for class4: 0.362295413215
+average recall for class 0 and 4: 0.479086684179
+p-value: (-0.17906574394463667, 0.88719870813088941)
+
+Time taken to build model: 1.46 seconds
+Time taken to test model on training data: 0.17 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6105               61.6791 %
+Incorrectly Classified Instances      3793               38.3209 %
+Kappa statistic                          0.2336
+Mean absolute error                      0.3832
+Root mean squared error                  0.619 
+Relative absolute error                 76.6417 %
+Root relative squared error            123.8077 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2949 2000 |    a = 0
+ 1793 3156 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6087               61.4973 %
+Incorrectly Classified Instances      3811               38.5027 %
+Kappa statistic                          0.2299
+Mean absolute error                      0.385 
+Root mean squared error                  0.6205
+Relative absolute error                 77.0055 %
+Root relative squared error            124.1011 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2922 2027 |    a = 0
+ 1784 3165 |    b = 4
+
+
+================== Result from partition7 ==================
+accuracy: 61.5074
+precision for class 0: 0.623885142484
+precision for class 4: 0.607432559894
+average precision for class 0 and 4: 0.615658851189
+recall for class0: 0.579511012326
+recall for class4: 0.349363507779
+average recall for class 0 and 4: 0.464437260053
+p-value: (-0.30904302019315188, 0.8091844552421712)
+
+Time taken to build model: 1.56 seconds
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6088               61.5074 %
+Incorrectly Classified Instances      3810               38.4926 %
+Kappa statistic                          0.2301
+Mean absolute error                      0.3849
+Root mean squared error                  0.6204
+Relative absolute error                 76.9852 %
+Root relative squared error            124.0848 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2868 2081 |    a = 0
+ 1729 3220 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6049               61.1134 %
+Incorrectly Classified Instances      3849               38.8866 %
+Kappa statistic                          0.2223
+Mean absolute error                      0.3889
+Root mean squared error                  0.6236
+Relative absolute error                 77.7733 %
+Root relative squared error            124.7183 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2849 2100 |    a = 0
+ 1749 3200 |    b = 4
+
+
+================== Result from partition8 ==================
+accuracy: 61.861
+precision for class 0: 0.627942458588
+precision for class 4: 0.61054613936
+average precision for class 0 and 4: 0.619244298974
+recall for class0: 0.582137805617
+recall for class4: 0.344918165286
+average recall for class 0 and 4: 0.463527985452
+p-value: (-0.30749574105621807, 0.81008399988008484)
+
+Time taken to build model: 1.49 seconds
+Time taken to test model on training data: 0.15 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6123               61.861  %
+Incorrectly Classified Instances      3775               38.139  %
+Kappa statistic                          0.2372
+Mean absolute error                      0.3814
+Root mean squared error                  0.6176
+Relative absolute error                 76.278  %
+Root relative squared error            123.5136 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2881 2068 |    a = 0
+ 1707 3242 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6078               61.4063 %
+Incorrectly Classified Instances      3820               38.5937 %
+Kappa statistic                          0.2281
+Mean absolute error                      0.3859
+Root mean squared error                  0.6212
+Relative absolute error                 77.1873 %
+Root relative squared error            124.2476 %
+Total Number of Instances             9898     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2862 2087 |    a = 0
+ 1733 3216 |    b = 4
+
+
+================== Result from partition9 ==================
+accuracy: 61.3636
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.68 seconds
+Time taken to test model on training data: 0.21 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        6075               61.3636 %
+Incorrectly Classified Instances      3825               38.6364 %
+Kappa statistic                          0.2273
+Mean absolute error                      0.3864
+Root mean squared error                  0.6216
+Relative absolute error                 77.2727 %
+Root relative squared error            124.3163 %
+Total Number of Instances             9900     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2857 2093 |    a = 0
+ 1732 3218 |    b = 4
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances        6040               61.0101 %
+Incorrectly Classified Instances      3860               38.9899 %
+Kappa statistic                          0.2202
+Mean absolute error                      0.3899
+Root mean squared error                  0.6244
+Relative absolute error                 77.9798 %
+Root relative squared error            124.8838 %
+Total Number of Instances             9900     
+
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2843 2107 |    a = 0
+ 1753 3197 |    b = 4
+
+
+
+
+======= Algorithm: naive Bayes, Input Files: 10 partitions from train.arff =======
+================== Result from partition0 ==================
+accuracy: 60.3152
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.23 seconds
+Time taken to test model on training data: 0.43 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5970               60.3152 %
+Incorrectly Classified Instances      3928               39.6848 %
+Kappa statistic                          0.2063
+Mean absolute error                      0.4498
+Root mean squared error                  0.4953
+Relative absolute error                 89.9647 %
+Root relative squared error             99.0659 %
+Total Number of Instances             9898     
+
+
+================== Result from partition1 ==================
+accuracy: 59.2544
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.21 seconds
+Time taken to test model on training data: 0.4 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5865               59.2544 %
+Incorrectly Classified Instances      4033               40.7456 %
+Kappa statistic                          0.1851
+Mean absolute error                      0.4519
+Root mean squared error                  0.4958
+Relative absolute error                 90.3826 %
+Root relative squared error             99.161  %
+Total Number of Instances             9898     
+
+
+================== Result from partition2 ==================
+accuracy: 59.4767
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.22 seconds
+Time taken to test model on training data: 0.35 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5887               59.4767 %
+Incorrectly Classified Instances      4011               40.5233 %
+Kappa statistic                          0.1895
+Mean absolute error                      0.4501
+Root mean squared error                  0.4961
+Relative absolute error                 90.018  %
+Root relative squared error             99.228  %
+Total Number of Instances             9898     
+
+
+================== Result from partition3 ==================
+accuracy: 59.3655
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.21 seconds
+Time taken to test model on training data: 0.37 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5876               59.3655 %
+Incorrectly Classified Instances      4022               40.6345 %
+Kappa statistic                          0.1873
+Mean absolute error                      0.4495
+Root mean squared error                  0.4968
+Relative absolute error                 89.9078 %
+Root relative squared error             99.355  %
+Total Number of Instances             9898     
+
+
+================== Result from partition4 ==================
+accuracy: 59.7595
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.32 seconds
+Time taken to test model on training data: 0.47 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5915               59.7595 %
+Incorrectly Classified Instances      3983               40.2405 %
+Kappa statistic                          0.1952
+Mean absolute error                      0.449 
+Root mean squared error                  0.4954
+Relative absolute error                 89.794  %
+Root relative squared error             99.0723 %
+Total Number of Instances             9898     
+
+
+================== Result from partition5 ==================
+accuracy: 59.7494
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.2 seconds
+Time taken to test model on training data: 0.37 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5914               59.7494 %
+Incorrectly Classified Instances      3984               40.2506 %
+Kappa statistic                          0.195 
+Mean absolute error                      0.4506
+Root mean squared error                  0.4944
+Relative absolute error                 90.1156 %
+Root relative squared error             98.8709 %
+Total Number of Instances             9898     
+
+
+================== Result from partition6 ==================
+accuracy: 59.608
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.24 seconds
+Time taken to test model on training data: 0.36 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5900               59.608  %
+Incorrectly Classified Instances      3998               40.392  %
+Kappa statistic                          0.1922
+Mean absolute error                      0.4466
+Root mean squared error                  0.4977
+Relative absolute error                 89.3248 %
+Root relative squared error             99.5339 %
+Total Number of Instances             9898     
+
+
+================== Result from partition7 ==================
+accuracy: 60.0727
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.22 seconds
+Time taken to test model on training data: 0.36 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5946               60.0727 %
+Incorrectly Classified Instances      3952               39.9273 %
+Kappa statistic                          0.2015
+Mean absolute error                      0.4457
+Root mean squared error                  0.4947
+Relative absolute error                 89.134  %
+Root relative squared error             98.9451 %
+Total Number of Instances             9898     
+
+
+================== Result from partition8 ==================
+accuracy: 59.6383
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.23 seconds
+Time taken to test model on training data: 0.44 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5903               59.6383 %
+Incorrectly Classified Instances      3995               40.3617 %
+Kappa statistic                          0.1928
+Mean absolute error                      0.4493
+Root mean squared error                  0.4952
+Relative absolute error                 89.8587 %
+Root relative squared error             99.0386 %
+Total Number of Instances             9898     
+
+
+================== Result from partition9 ====================================
+accuracy: 59.4343
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 0.21 seconds
+Time taken to test model on training data: 0.43 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        5884               59.4343 %
+Incorrectly Classified Instances      4016               40.5657 %
+Kappa statistic                          0.1887
+Mean absolute error                      0.4527
+Root mean squared error                  0.4959
+Relative absolute error                 90.5499 %
+Root relative squared error             99.1886 %
+Total Number of Instances             9900     
+
+
+
+
+======= Algorithm: Decision Trees, Input Files: 10 partitions from train.arff =======
+================== Result from partition0 ==================
+accuracy: 77.945
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.86 seconds
+Time taken to test model on training data: 0.15 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7715               77.945  %
+Incorrectly Classified Instances      2183               22.055  %
+Kappa statistic                          0.5589
+Mean absolute error                      0.311 
+Root mean squared error                  0.3943
+Relative absolute error                 62.1953 %
+Root relative squared error             78.864  %
+Total Number of Instances             9898     
+
+
+================== Result from partition1 ==================
+accuracy: 79.1675
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.84 seconds
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7836               79.1675 %
+Incorrectly Classified Instances      2062               20.8325 %
+Kappa statistic                          0.5834
+Mean absolute error                      0.2959
+Root mean squared error                  0.3847
+Relative absolute error                 59.1872 %
+Root relative squared error             76.9332 %
+Total Number of Instances             9898     
+
+
+================== Result from partition2 ==================
+accuracy: 77.8036
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.59 seconds
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7701               77.8036 %
+Incorrectly Classified Instances      2197               22.1964 %
+Kappa statistic                          0.5561
+Mean absolute error                      0.3088
+Root mean squared error                  0.3929
+Relative absolute error                 61.7559 %
+Root relative squared error             78.5849 %
+Total Number of Instances             9898     
+
+
+================== Result from partition3 ==================
+accuracy: 78.824
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.7 seconds
+Time taken to test model on training data: 0.17 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7802               78.824  %
+Incorrectly Classified Instances      2096               21.176  %
+Kappa statistic                          0.5765
+Mean absolute error                      0.2995
+Root mean squared error                  0.387 
+Relative absolute error                 59.9027 %
+Root relative squared error             77.3969 %
+Total Number of Instances             9898     
+
+
+================== Result from partition4 ==================
+accuracy: 78.8341
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.73 seconds
+Time taken to test model on training data: 0.15 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7803               78.8341 %
+Incorrectly Classified Instances      2095               21.1659 %
+Kappa statistic                          0.5767
+Mean absolute error                      0.2973
+Root mean squared error                  0.3856
+Relative absolute error                 59.4613 %
+Root relative squared error             77.1112 %
+Total Number of Instances             9898     
+
+
+================== Result from partition5 ==================
+accuracy: 78.6219
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.7 seconds
+Time taken to test model on training data: 0.16 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7782               78.6219 %
+Incorrectly Classified Instances      2116               21.3781 %
+Kappa statistic                          0.5724
+Mean absolute error                      0.3055
+Root mean squared error                  0.3909
+Relative absolute error                 61.1063 %
+Root relative squared error             78.1705 %
+Total Number of Instances             9898     
+
+
+================== Result from partition6 ==================
+accuracy: 78.7634
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.65 seconds
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7796               78.7634 %
+Incorrectly Classified Instances      2102               21.2366 %
+Kappa statistic                          0.5753
+Mean absolute error                      0.3001
+Root mean squared error                  0.3874
+Relative absolute error                 60.0177 %
+Root relative squared error             77.4711 %
+Total Number of Instances             9898     
+
+
+================== Result from partition7 ==================
+accuracy: 78.9553
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.61 seconds
+Time taken to test model on training data: 0.17 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7815               78.9553 %
+Incorrectly Classified Instances      2083               21.0447 %
+Kappa statistic                          0.5791
+Mean absolute error                      0.3005
+Root mean squared error                  0.3876
+Relative absolute error                 60.0943 %
+Root relative squared error             77.5205 %
+Total Number of Instances             9898     
+
+
+================== Result from partition8 ==================
+accuracy: 78.8038
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 2.06 seconds
+Time taken to test model on training data: 0.14 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7800               78.8038 %
+Incorrectly Classified Instances      2098               21.1962 %
+Kappa statistic                          0.5761
+Mean absolute error                      0.3004
+Root mean squared error                  0.3876
+Relative absolute error                 60.0788 %
+Root relative squared error             77.5105 %
+Total Number of Instances             9898     
+
+
+================== Result from partition9 ==================
+accuracy: 78.0101
+precision for class 0: 0.622575724559
+precision for class 4: 0.605912257579
+average precision for class 0 and 4: 0.614243991069
+recall for class0: 0.577171717172
+recall for class4: 0.349898989899
+average recall for class 0 and 4: 0.463535353535
+p-value: (-0.32088888888888889, 0.80232379422054123)
+
+Time taken to build model: 1.79 seconds
+Time taken to test model on training data: 0.24 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances        7723               78.0101 %
+Incorrectly Classified Instances      2177               21.9899 %
+Kappa statistic                          0.5602
+Mean absolute error                      0.31  
+Root mean squared error                  0.3937
+Relative absolute error                 62.0027 %
+Root relative squared error             78.7418 %
+Total Number of Instances             9900     
+
+
+
+
